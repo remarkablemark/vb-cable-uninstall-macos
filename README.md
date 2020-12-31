@@ -1,0 +1,1 @@
+# VB-Cable uninstall (macOS)
