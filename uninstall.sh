@@ -15,7 +15,7 @@ echo "Uninstalling VB-Cable..."
 
 rm -rf /Library/Audio/Plugin-Ins/HAL/VBCable.Driver/
 rm -rf /Applications/VB-Audio/
-rm /Library/Preferences/com.vbaudio.vbcable.plist
-rm /Library/LaunchDaemons/com.vbaudio.vbcableagent.plist
+rm -f /Library/Preferences/com.vbaudio.vbcable.plist
+rm -f /Library/LaunchDaemons/com.vbaudio.vbcableagent.plist
 
 echo "VB-Cable uninstalled! Please restart your computer."
