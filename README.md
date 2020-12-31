@@ -3,7 +3,7 @@
 Uninstall [VB-Cable](https://vb-audio.com/Cable/) on macOS:
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/remarkablemark/vb-cable-uninstall-macos/master/uninstall.sh)"
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/remarkablemark/vb-cable-uninstall-macos/master/uninstall.sh)"
 ```
 
 Paste the command above in a macOS Terminal.
@@ -33,14 +33,18 @@ rm '/Applications/VB-Audio/VB-CABLE Control Panel.app'
 Delete the `com.vbaudio.vbcable.plist` file from the `/Library/Preferences/` directory:
 
 ```sh
-rm /Library/Preferences/com.vbaudio.vbcable.plist
+rm -rf /Library/Preferences/com.vbaudio.vbcable.plist
 ```
+
+> This operation requires administrator privileges.
 
 Delete the `com.vbaudio.vbcableagent.plist` file from the `/Library/LaunchDaemons/` directory:
 
 ```sh
-rm /Library/LaunchDaemons/com.vbaudio.vbcableagent.plist
+rm -rf /Library/LaunchDaemons/com.vbaudio.vbcableagent.plist
 ```
+
+> This operation requires administrator privileges.
 
 ## License
 
