@@ -13,9 +13,9 @@ abort() {
 
 echo "Uninstalling VB-Cable..."
 
-rm -rf /Library/Audio/Plugin-Ins/HAL/VBCable.Driver/
-rm -rf /Applications/VB-Audio/
-rm -rf /Library/Preferences/com.vbaudio.vbcable.plist
-rm -rf /Library/LaunchDaemons/com.vbaudio.vbcableagent.plist
+sudo rm -rf /Library/Audio/Plugin-Ins/HAL/VBCable.Driver/
+sudo rm -rf /Applications/VB-Audio/
+sudo rm -rf /Library/Preferences/com.vbaudio.vbcable.plist
+sudo rm -rf /Library/LaunchDaemons/com.vbaudio.vbcableagent.plist
 
 echo "VB-Cable uninstalled! Please restart your computer."
