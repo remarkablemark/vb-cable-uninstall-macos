@@ -8,7 +8,7 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/remarkablemark
 
 Paste the command above in a macOS Terminal.
 
-The VB-Cable uninstall script is inspired by the [forum post](https://forum.vb-audio.com/viewtopic.php?p=3683&sid=f6e0e6f6eec13915a75a230bf92bd451#p3683).
+The VB-Cable uninstall script is inspired by the [forum post](https://forum.vb-audio.com/viewtopic.php?p=3683&sid=f6e0e6f6eec13915a75a230bf92bd451#p3683). Read my [blog post](https://remarkablemark.org/blog/2020/12/31/uninstall-vb-cable-mac/).
 
 ## Script
 
