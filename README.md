@@ -12,10 +12,10 @@ The VB-Cable uninstall script is inspired by the [forum post](https://forum.vb-a
 
 ## Script
 
-Delete the `VBCable.Driver` file from the `/Library/Audio/Plugin-Ins/HAL/` directory:
+Delete the `VBCable.driver` directory from the `/Library/Audio/Plug-Ins/HAL/` directory:
 
 ```sh
-sudo rm -rf /Library/Audio/Plugin-Ins/HAL/VBCable.Driver/
+sudo rm -rf /Library/Audio/Plug-Ins/HAL/VBCable.driver/
 ```
 
 Delete the `VB-CABLE Control Panel.app` file from the `/Applications/VB-Audio/` directory:
